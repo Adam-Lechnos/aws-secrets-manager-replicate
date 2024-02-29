@@ -5,7 +5,7 @@ Replicate AWS Secrets on a host containing an AWS credentials file with all the 
 * Devops
 
 #### Pre-requisites
-* Jenkins host which containes an attached EC2 profile, permissioned across all target accounts via a trusted role
+* Jenkins host which contains an attached EC2 profile, with permissions across all target accounts via a trusted role
 * An ./aws/credentials file containing all account profiles to allow script 'profile' call via AWS CLI to each target account, respectively
 * A callable JSON file containing a list of all target accounts
 * Secrets pre-populated in each target account's us-east-1 region
